@@ -1,0 +1,102 @@
+//Automated movement of the scanner
+//can be customized
+// Define pin connections & motor's steps per revolution
+//X
+
+const int dirPinX = 5;
+const int stepPinX = 2;
+const int stepsPerRevolutionX = 8000;
+
+//Y
+const int dirPinY = 6;
+const int stepPinY = 3;
+const int stepsPerRevolutionY = 7000;
+
+
+
+
+void setup()
+{
+	// Declare pins as Outputs
+	pinMode(stepPinX, OUTPUT);
+	pinMode(dirPinX, OUTPUT);
+  pinMode(stepPinY, OUTPUT);
+	pinMode(dirPinY, OUTPUT);
+
+  digitalWrite(8, LOW);
+} 
+void loop()
+{
+  
+	// Set motor direction clockwise
+digitalWrite(dirPinX, HIGH);
+	// Set motor direction counterclockwise
+
+ // digitalWrite(dirPinY, HIGH);
+	// Set motor direction counterclockwise
+	digitalWrite(dirPinY, HIGH);
+  //digitalWrite(dirPinZ, HIGH);
+	// Set motor direction counterclockwise
+
+
+	// Spin motor quickly
+	for(int x = 0; x < stepsPerRevolutionX; x++)
+	{
+    digitalWrite(dirPinX, LOW);
+		digitalWrite(stepPinX, HIGH);
+		delayMicroseconds(1000);
+		digitalWrite(stepPinX, LOW);
+		delayMicroseconds(1000);
+
+
+    	digitalWrite(dirPinY, HIGH);
+		digitalWrite(stepPinY, HIGH);
+		delayMicroseconds(1000);
+		digitalWrite(stepPinY, LOW);
+		delayMicroseconds(1000);
+	}
+
+
+	for(int x = 0; x < stepsPerRevolutionX; x++)
+	{
+    	digitalWrite(dirPinX, HIGH);
+		digitalWrite(stepPinX, HIGH);
+		delayMicroseconds(1000);
+		digitalWrite(stepPinX, LOW);
+		delayMicroseconds(1000);
+
+	digitalWrite(dirPinY, LOW);
+		digitalWrite(stepPinY, HIGH);
+		delayMicroseconds(1000);
+		digitalWrite(stepPinY, LOW);
+		delayMicroseconds(1000);
+
+	}
+
+
+
+
+
+/*
+
+  for(int y = 0; y < stepsPerRevolutionY; y++)
+	{
+    	digitalWrite(dirPinY, HIGH);
+		digitalWrite(stepPinY, HIGH);
+		delayMicroseconds(1000);
+		digitalWrite(stepPinY, LOW);
+		delayMicroseconds(1000);
+	}
+
+
+  for(int y = 0; y < stepsPerRevolutionY; y++)
+	{
+    	digitalWrite(dirPinY, LOW);
+		digitalWrite(stepPinY, HIGH);
+		delayMicroseconds(1000);
+		digitalWrite(stepPinY, LOW);
+		delayMicroseconds(1000);
+	}
+
+*/
+}
