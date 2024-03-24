@@ -7,6 +7,8 @@ Description:
 
 Welcome to our open-source project – the Microscopic 3D Scanner for Plant Microorganisms. This innovative scanner is designed to delve into the microscale world, allowing researchers, botanists, and enthusiasts to explore and study tiny organisms such as fungi on the roots or branches of plants with a magnification range of 5-10X.
 
+**Check Out Video:** https://www.youtube.com/watch?v=-S-5wSZ8l40
+
 Features:
 
     Openscan Foundation:
@@ -26,6 +28,9 @@ How to Use:
     Place the plant sample under the microscope and initiate the scanning process.
     Explore the 3D digital representation of the microscale organisms using Openscan software.
 
+**Find the designs:**
+
+
 Contribution and Collaboration:
 
 We invite the community to contribute to the development of this project. Whether you're an expert in 3D scanning, Arduino programming, or biology, your insights and contributions are valuable. Feel free to submit issues, pull requests, or join our discussions to help us improve and expand the capabilities of our Microscopic 3D Scanner.
@@ -33,6 +38,7 @@ We invite the community to contribute to the development of this project. Whethe
 Publication:
 
 Check out our preprint publication for an in-depth understanding of the project and its applications. The publication is available here.
+**Find our PReprint:** 
 
 License:
 
