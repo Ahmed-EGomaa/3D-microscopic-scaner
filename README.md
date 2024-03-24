@@ -28,7 +28,7 @@ Welcome to our open-source project – the Microscopic 3D Scanner for Plant Micr
     Place the plant sample under the microscope and initiate the scanning process.
     Explore the 3D digital representation of the microscale organisms using Openscan software.
 
-**Find the designs:**
+**Find the designs:**https://sketchfab.com/ahmed.gomaa085/collections/3d-micro-scanning-project-f8bf683372274e37a971e183b6993895
 
 
 **Contribution and Collaboration:**
