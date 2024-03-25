@@ -1,5 +1,8 @@
 
-<p align="center"> scr="Scanner.jpg" </p>
+
+<p align="center"> 
+<img scr= "Scanner.jpg"> 
+</p>
 
 # 3D-microscopic-scanner
 DIY 3D scanning system for microscopic scale 
