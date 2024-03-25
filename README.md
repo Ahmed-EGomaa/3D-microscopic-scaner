@@ -1,5 +1,5 @@
 
-<p align="center"> ![Scanner](https://github.com/Ahmed-EGomaa/3D-microscopic-scanner/assets/54083977/b7cb0859-5fcc-45b6-9878-79f00094dd44) </p>
+<p align="center"> Scanner.jpg </p>
 
 # 3D-microscopic-scanner
 DIY 3D scanning system for microscopic scale 
