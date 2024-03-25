@@ -1,7 +1,7 @@
 
 
 <p align="center"> 
-<img scr= "Scanner.jpg"> 
+<img src= "Scanner.png"> 
 </p>
 
 # 3D-microscopic-scanner
