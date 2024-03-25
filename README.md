@@ -1,11 +1,10 @@
 
 
+# 3D-microscopic-scanner
+DIY 3D scanning system for microscopic scale 
 <p align="center"> 
 <img src= "Scanner.png"> 
 </p>
-
-# 3D-microscopic-scanner
-DIY 3D scanning system for microscopic scale 
 
 Microscopic 3D Scanner for Plant Microorganisms and microecology
 
