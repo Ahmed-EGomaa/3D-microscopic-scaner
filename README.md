@@ -1,7 +1,7 @@
 #  <p align="center"> 3D-microscopic-scanner. </p>
 ##  <p align="center"> DIY 3D scanning system for microscopic scale. </p>
 #  <p align="center"> Prototyping Lab, RDI, Faculty of BioTech, MSA University. </p>
-<p align="center"> Authors: Mostafa Kamal Eldin, Nehal Alaa, Nancy Khalaf, Ahmed Gomaa. </p>
+<p align="center"> Authors: Mariam Attia, Doha Ibrahim, Mai Torkey, Ahmed Gomaa. </p>
 
 <p align="center"> 
 <img src= "Scanner.png"> 
